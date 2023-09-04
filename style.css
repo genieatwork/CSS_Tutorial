@@ -5,18 +5,17 @@ html{
 
 
 .mainHeader{
-    border: 2px dashed red;
-    margin: .9em 0em 1em 0em;
-/*     margin-top: 1em; */
+    border: 2px dashed rgb(80, 120, 193);
+    margin: .2em 0em 1em 0em;
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: .8rem;
 }
 
 .container{
-    border: 2px dashed red;
-    margin: 0em 0em 1em 0em;
+    border: 2px dashed rgb(80, 120, 193);
+    margin: .0em 0em 1em 0em;
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: .8rem;
 }
 
 p{
