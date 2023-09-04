@@ -5,10 +5,13 @@
 .mainHeader{
     width: 80%;
     font-size: 2rem;
+    padding: .5em;
 }
+
 p{
     font-size: 1rem;
 }
+
 h1{
     border: 2px dashed red;
     width: 100%;
