@@ -1,6 +1,7 @@
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -20,8 +21,8 @@ html{
             .navLinks a{
                 color: black;
                 text-decoration: none;
-/*                 padding: 14px 16px; */
                 padding: 1rem;
+                background-color: ;
 
             }
 
@@ -45,7 +46,7 @@ html{
     border-radius: 10px;
     text-align: center;
     letter-spacing: 0.1rem;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
 }
 
 .container{
@@ -60,7 +61,7 @@ html{
     padding: .8rem;
     border-radius: 10px;
     text-align: center;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(245,245,247);
 }
 
 .rightContainer{
@@ -90,7 +91,7 @@ h1{
 
 body{
     font-size: 22px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245,245,247);
     color: rgb(63, 63, 63);
 }
 
