@@ -22,8 +22,6 @@ html{
                 color: black;
                 text-decoration: none;
                 padding: 1rem;
-                background-color: ;
-
             }
 
             .navLinks a:hover {
@@ -38,6 +36,7 @@ html{
     height: 1%;
     width: 1%;
 }
+
 .mainHeader{
 /*     border: 2px dashed rgb(80, 120, 193); */
     margin: 0em 0em 1em 0em;
@@ -95,6 +94,11 @@ body{
     color: rgb(63, 63, 63);
 }
 
+.block{
+    width: 20vw;
+    height: 20vw;
+    background-color: aqua;
+}
     
 table, tr, th, td, caption{
     border: 1px solid rgb(104, 104, 104);
