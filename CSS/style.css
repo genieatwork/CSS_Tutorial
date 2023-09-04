@@ -32,10 +32,10 @@ html{
                 color: black;
             }
 
-.navLinks img{
-    height: 1%;
-    width: 1%;
-}
+            .navLinks img{
+                height: 1%;
+                width: 1%;
+            }
 
 .mainHeader{
 /*     border: 2px dashed rgb(80, 120, 193); */
