@@ -7,7 +7,6 @@ html{
     box-sizing: 0;
 }
 
-/* topNavigation */
 .navLinks{
 /*     border: 2px dashed rgb(80, 120, 193); */
     color: black;
@@ -21,7 +20,8 @@ html{
             .navLinks a{
                 color: black;
                 text-decoration: none;
-                padding: 14px 16px;
+/*                 padding: 14px 16px; */
+                padding: 1rem;
 
             }
 
@@ -33,6 +33,10 @@ html{
                 color: black;
             }
 
+.navLinks img{
+    height: 1%;
+    width: 1%;
+}
 .mainHeader{
 /*     border: 2px dashed rgb(80, 120, 193); */
     margin: 0em 0em 1em 0em;
@@ -41,7 +45,7 @@ html{
     border-radius: 10px;
     text-align: center;
     letter-spacing: 0.1rem;
-    background-color: rgb(250, 249, 249);
+    background-color: rgb(248, 248, 248);
 }
 
 .container{
@@ -53,6 +57,10 @@ html{
     text-decoration: justify;
     line-height: 1.5rem;
     font-weight: light;
+    padding: .8rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
 }
 
 .rightContainer{
@@ -88,7 +96,7 @@ body{
 
     
 table, tr, th, td, caption{
-    border: 1px solid white;
+    border: 1px solid rgb(104, 104, 104);
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
