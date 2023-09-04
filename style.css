@@ -1,12 +1,13 @@
-html{
-    font-size: 22px;
-}
-
 
 
 body{
+    font-size: 22px;
     background-color: #333;
     color: whitesmoke;
+}
+
+footer{
+    font-size: 50px;
 }
 a{
     color: white;
