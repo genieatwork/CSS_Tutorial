@@ -1,21 +1,51 @@
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
 
+/* topNavigation */
+.navLinks{
+/*     border: 2px dashed rgb(80, 120, 193); */
+    color: black;
+    font: inherit;
+    font-size: small;
+    text-align: center;
+    padding: .5rem 0rem .7rem 0rem;
+    
+}
 
+            .navLinks a{
+                color: black;
+                text-decoration: none;
+                padding: 14px 16px;
+
+            }
+
+            .navLinks a:hover {
+            color: black
+            }
+
+            .navLinks a:visited {
+                color: black;
+            }
 
 .mainHeader{
-    border: 2px dashed rgb(80, 120, 193);
-    margin: .2em 0em 1em 0em;
+/*     border: 2px dashed rgb(80, 120, 193); */
+    margin: 0em 0em 1em 0em;
     font-size: 2rem;
     padding: .8rem;
     border-radius: 10px;
     text-align: center;
     letter-spacing: 0.1rem;
+    background-color: rgb(250, 249, 249);
 }
 
 .container{
-    border: 2px dashed rgb(80, 120, 193);
+/*     border: 2px dashed rgb(80, 120, 193); */
     margin: .0em 0em 1em 0em;
     font-size: 1.2rem;
     padding: .8rem;
@@ -52,7 +82,7 @@ h1{
 
 body{
     font-size: 22px;
-    background-color: papayawhip;
+    background-color: rgb(255, 255, 255);
     color: rgb(63, 63, 63);
 }
 
