@@ -25,6 +25,10 @@ html{
     font-weight: light;
 }
 
+.rightContainer{
+   display: inline-block;
+   height: 200px;
+}
 
 /* .circle{
     margin: 3rem;
