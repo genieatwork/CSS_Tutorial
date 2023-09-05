@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -65,30 +65,35 @@ nav a:visited {
 }
 
 nav img {
-  height: 1%;
-  width: 1%;
+  height: .8%;
+  width: .8%;
 }
 
-#big {
+#bodyDiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bodyDiv {
+.headerDiv {
     border: 2px dashed rgb(80, 120, 193);
   background-color: rgb(245, 245, 247);
   color: rgb(63, 63, 63);
-  align-items: center;
   width: 125rem;
   height: 200rem;
   margin-bottom: 5rem;
 }
 
-.container {
+#aboutMeCounter {
 /*   border: 2px dashed rgb(80, 120, 193); */
   width: 500px;
   text-align: center;
+  display: flex;
+  background-color: white;
+  border-radius: rem;
+  margin: 0rem 0rem 0rem .5rem;
+  
+  
 }
 
 .child {
