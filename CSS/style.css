@@ -9,7 +9,7 @@ html {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
-  /*     border: 2px dashed rgb(80, 120, 193); */
+/*   border: 2px dashed rgb(80, 120, 193); */
   margin: 0em 0em 1em 0em;
   padding: 0.8rem;
   border-radius: 10px;
@@ -17,35 +17,32 @@ header {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   background-color: rgb(255, 255, 255);
+  
 }
 
 body {
   background-color: rgb(245, 245, 247);
   color: rgb(63, 63, 63);
-  border: 2px dashed rgb(80, 120, 193);
+/*   border: 2px dashed rgb(80, 120, 193); */
 }
 
 footer {
-  border: 2px dashed rgb(80, 120, 193);
+/*   border: 2px dashed rgb(80, 120, 193); */
   text-align: center;
   display: flex;
   align-items: end;
   position: relative;
 }
 
-table,
-tr,
-th,
-td,
-caption {
-  border: 1px solid rgb(104, 104, 104);
+table, tr, th, td, caption {
+/*   border: 2px dashed rgb(80, 120, 193); */
   font-family: "Courier New", Courier, monospace;
   border-collapse: collapse;
   padding: 0.5rem;
 }
 
-.navLinks {
-  border: 2px dashed rgb(80, 120, 193);
+nav {
+/*   border: 2px dashed rgb(80, 120, 193); */
   color: black;
   font: inherit;
   font-size: small;
@@ -53,21 +50,21 @@ caption {
   margin: 0.4rem 0rem 0.4rem 0rem;
 }
 
-.navLinks a {
+nav div a {
   color: black;
   text-decoration: none;
   padding: 1rem;
 }
 
-.navLinks a:hover {
+nav a:hover {
   color: black;
 }
 
-.navLinks a:visited {
+nav a:visited {
   color: black;
 }
 
-.navLinks img {
+nav img {
   height: 1%;
   width: 1%;
 }
@@ -79,9 +76,9 @@ caption {
 }
 
 .bodyDiv {
+    border: 2px dashed rgb(80, 120, 193);
   background-color: rgb(245, 245, 247);
   color: rgb(63, 63, 63);
-  border: 2px dashed rgb(80, 120, 193);
   align-items: center;
   width: 125rem;
   height: 200rem;
@@ -89,13 +86,13 @@ caption {
 }
 
 .container {
-  border: 2px dashed rgb(80, 120, 193);
+/*   border: 2px dashed rgb(80, 120, 193); */
   width: 500px;
   text-align: center;
 }
 
 .child {
-  border: 2px solid rgb(80, 120, 193);
+/*   border: 2px dashed rgb(80, 120, 193); */
   display: flex;
   width: 100px;
   height: 100px;
