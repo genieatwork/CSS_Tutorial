@@ -38,7 +38,7 @@ html{
             }
 
 .mainHeader{
-/*     border: 2px dashed rgb(80, 120, 193); */
+    border: 2px dashed rgb(80, 120, 193);
     margin: 0em 0em 1em 0em;
     font-size: 2rem;
     padding: .8rem;
@@ -53,7 +53,6 @@ html{
     height: 10rem;
     text-align: center;
     border: 2px dashed rgb(80, 120, 193);
-    background-color: rgb(0, 0, 255);
     position: relative;
     top: 10rem;
     left: 10rem;
@@ -97,4 +96,23 @@ table, tr, th, td, caption{
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+
+.container {
+    border: 2px dashed rgb(80, 120, 193);
+    width: 500px;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.child {
+    border: 2px solid rgb(80, 120, 193);
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
