@@ -8,23 +8,43 @@ html{
     box-sizing: 0;
 }
 
+body{
+    background-color: rgb(245,245,247);
+    color: rgb(63, 63, 63);
+    border: 2px dashed rgb(80, 120, 193);
+}
+
+#big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bodyDiv{
+    background-color: rgb(245,245,247);
+    color: rgb(63, 63, 63);
+    border: 2px dashed rgb(80, 120, 193);
+    align-items: center;
+    width: 125rem;
+}
 header{
     border: 2px dashed rgb(80, 120, 193);
     margin: 0em 0em 1em 0em;
-    font-size: 2rem;
     padding: .8rem;
     border-radius: 10px;
     text-align: center;
+    font-size: 2rem;
     letter-spacing: 0.1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
 }
+
 .navLinks{
 /*     border: 2px dashed rgb(80, 120, 193); */
     color: black;
     font: inherit;
     font-size: small;
     text-align: center;
-    padding: .5rem 0rem .7rem 0rem;
     
 }
 
@@ -47,53 +67,27 @@ header{
                 width: 1%;
             }
 
-.firstContainer{
+
+.container {
     border: 2px dashed rgb(80, 120, 193);
-    margin: 0em 0em 1em 0em;
-    font-size: 2rem;
-    padding: .8rem;
-    border-radius: 10px;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    background-color: rgb(255, 255, 255);
+    width: 500px;
+    text-align: center
+    ;
 }
 
-.outerContainer{
-    width: 10rem;
-    height: 10rem;
-    text-align: center;
-    border: 2px dashed rgb(80, 120, 193);
-    position: relative;
-    top: 10rem;
-    left: 10rem;
 
-}
-
-/* .circle{
-    margin: 3rem;
-    background-color: blue;
+.child {
+    border: 2px solid rgb(80, 120, 193);
+    display: flex;
     width: 100px;
     height: 100px;
-    border: 2px solid #000;
-    outline: 2px solid red;
-    offset: 0,25rem;
-    border-radius: 10px;
-} */
-
-p{
-    font-size: 1rem;
 }
-
 
 h1{
     width: 100%;
 }
 
-body{
-    font-size: 22px;
-    background-color: rgb(245,245,247);
-    color: rgb(63, 63, 63);
-}
+
 
 .block{
     width: 20vw;
@@ -109,20 +103,3 @@ table, tr, th, td, caption{
 }
 
 
-.container {
-    border: 2px dashed rgb(80, 120, 193);
-    width: 500px;
-    aspect-ratio: 2 / 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
-.child {
-    border: 2px solid rgb(80, 120, 193);
-    display: flex;
-    width: 100px;
-    height: 100px;
-}
