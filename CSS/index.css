@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .body-div {
@@ -13,15 +14,26 @@
 }
 
 .grid-container {
-  /*     border: 2px dashed rgb(245,245,247); */
+
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 2rem .5rem rgba(199, 199, 199, 0.808)
 }
 
 .grid-item {
-  border: 2px dashed rgb(80, 120, 193);
-  margin-inline: 15rem;
+    padding: 1rem;
 }
 
-.grid-text-1 .grid-img {
+.grid-text-1 {
+    /* border: 2px dashed rgb(80, 120, 193); */
+    font-size: larger;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 10rem;
+}
+
+.grid-img {
+    /* border: 2px dashed rgb(80, 120, 193); */
 }

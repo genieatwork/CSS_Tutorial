@@ -11,13 +11,13 @@ html {
 header {
 /*   border: 2px dashed rgb(80, 120, 193); */
   margin: 0em 0em 1em 0em;
-  padding: 0.8rem;
+  padding: 10rem;
   border-radius: 10px;
   text-align: center;
   font-size: 3rem;
   letter-spacing: 0.1rem;
   background-color: rgb(255, 255, 255);
-  
+  margin: 7rem 0rem 10rem 0rem;
 }
 footer {
 /*   border: 2px dashed rgb(80, 120, 193); */
