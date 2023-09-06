@@ -16,7 +16,7 @@
   display: grid;
   /* height: 50rem; */
   grid-template-columns: 43% 57%;
-  border-top-right-radius: 2rem;
+  border-radius: .8rem 0.8rem 0.8rem 0.8rem;
   border-top-left-radius: 2rem;
   box-shadow: 0rem 0rem 2rem 0.5rem rgba(199, 199, 199, 0.808);
 }
@@ -39,6 +39,6 @@
 .grid-img img{
     width: 70%;
     height: auto;
-    border-top-left-radius: 2rem;
+    border-radius: .8rem 0 0 .8rem;
   
 }
