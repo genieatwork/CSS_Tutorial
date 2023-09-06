@@ -1,0 +1,25 @@
+#bodyDiv {
+/* border: 2px dashed rgb(80, 120, 193); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerDiv {
+  /* border: 2px dashed rgb(80, 120, 193); */
+  background-color: rgb(245, 245, 247);
+  color: rgb(63, 63, 63);
+  width: 125rem;
+  margin-bottom: 5rem;  
+}
+
+.grid-container{
+    /* border: 2px dashed rgb(80, 120, 193); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    border: 2px dashed rgb(80, 120, 193);
+    margin-inline: 2rem;
+}

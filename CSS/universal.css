@@ -21,6 +21,7 @@ header {
 }
 
 body {
+  background-color: rgb(245, 245, 247);
   color: rgb(63, 63, 63);
 /*   border: 2px dashed rgb(80, 120, 193); */
 }
@@ -66,36 +67,4 @@ nav a:visited {
 nav img {
   height: .8%;
   width: .8%;
-}
-
-#bodyDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.headerDiv {
-/*   border: 2px dashed rgb(80, 120, 193); */
-  color: rgb(63, 63, 63);
-  width: 125rem;
-  height: 200rem;
-  margin-bottom: 5rem;
-}
-
-#aboutMeCounter {
-/*   border: 2px dashed rgb(80, 120, 193); */
-  width: 500px;
-  text-align: center;
-  display: flex;
-  border-radius: rem;
-  margin: 0rem 0rem 0rem .5rem;
-  
-  
-}
-
-.child {
-/*   border: 2px dashed rgb(80, 120, 193); */
-  display: flex;
-  width: 100px;
-  height: 100px;
 }
