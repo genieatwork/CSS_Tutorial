@@ -1,25 +1,27 @@
-#bodyDiv {
-/* border: 2px dashed rgb(80, 120, 193); */
+.container {
+  /*   border: 2px dashed rgb(80, 120, 193); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.headerDiv {
+.body-div {
   /* border: 2px dashed rgb(80, 120, 193); */
-  background-color: rgb(245, 245, 247);
   color: rgb(63, 63, 63);
-  width: 125rem;
-  margin-bottom: 5rem;  
+  width: 115rem;
+  margin-bottom: 1rem;
 }
 
-.grid-container{
-    /* border: 2px dashed rgb(80, 120, 193); */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.grid-container {
+  /*     border: 2px dashed rgb(245,245,247); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid-item{
-    border: 2px dashed rgb(80, 120, 193);
-    margin-inline: 2rem;
+.grid-item {
+  border: 2px dashed rgb(80, 120, 193);
+  margin-inline: 15rem;
+}
+
+.grid-text-1 .grid-img {
 }

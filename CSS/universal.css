@@ -14,18 +14,11 @@ header {
   padding: 0.8rem;
   border-radius: 10px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.1rem;
   background-color: rgb(255, 255, 255);
   
 }
-
-body {
-  background-color: rgb(245, 245, 247);
-  color: rgb(63, 63, 63);
-/*   border: 2px dashed rgb(80, 120, 193); */
-}
-
 footer {
 /*   border: 2px dashed rgb(80, 120, 193); */
   text-align: center;
